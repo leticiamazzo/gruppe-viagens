@@ -1,9 +1,18 @@
 *{
-    font-family: 'Flamenco', cursive;
+    font-family: 'Asap', sans-serif;
+    color: gray;
 
 }
 
- /* ul li{
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Flamenco', cursive;
+}
+
+.topbar{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+ul li{
     display: flex;
     justify-content: space-between;
     display: inline-block;
@@ -15,7 +24,7 @@ nav a{
     text-transform: uppercase;
     color: white;
 
-}  */
+}  
 
 .topbar ul li{
     display: inline;
@@ -76,33 +85,110 @@ header div p{
 .sobre > div{
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .desc-sobre{
     max-width: 40%;
-    margin-left: 30px;
-}
+    margin-left: 45px;
+} 
 
 
 /* PASSO-A-PASSO */
+
 .passo-a-passo h2{
     display: block;
     text-align: center;
+    padding-top: 50px;
+} 
+
+.desc-passo{
+    max-width: 25%;
+    margin-left: 70px;
+    text-align: center;
 }
 
-.passo-a-passo div{
-    display: inline-block;
+.passo-a-passo > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+/* SERVICOS */
+.servicos{
+    background: url(../img/bg-servicos.png);
+    display: block;
+    text-align: center;
+    padding: 25px 0 70px 0;
+}
+
+.card-servicos{
+    max-width: 25%;
+    margin-left: 70px;
+    text-align: center;
+    background-color: rgb(48, 166, 235);
+}
+
+.servicos > div{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.passo-a-passo div > div{
+/* CURIOSIDADES */
+.curiosidades{
+    background: url(../img/bg-numeros.png);
+    display: block;
+    text-align: center;
+    padding: 25px 0 30px 0;
+}
+
+.card.curiosidades{
+    max-width: 25%;
+    margin-left: 70px;
+    text-align: center;
+    background-color: rgb(48, 166, 235);
+}
+
+.curiosidades > div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-/* SERVICOS */
+/* CONTATO */
+.contato{
+    display: block;
+    text-align: center;
+}
 
+
+/* NEWSLETTER */
+.newsletter{
+    background: rgb(231, 170, 39);
+    display: block;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+/* FOOTER */
+.footer{
+    background: rgb(73, 72, 68);
+    display: block;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+.footer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer ul{
+    display: block;
+    text-align: center;
+} */
