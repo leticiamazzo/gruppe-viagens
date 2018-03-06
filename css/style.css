@@ -125,11 +125,14 @@ header div p{
     color: white;
 }
 
+.servicos h2{
+    color: gray;
+}
+
 .servicos > div{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .card-servicos{
@@ -164,6 +167,10 @@ header div p{
     align-items: center;
 }
 
+.card-curiosidades span{
+    font-size: 20px;
+}
+
 .card-curiosidades{
     display: inline-block;
     max-width: 25%;
@@ -192,37 +199,39 @@ header div p{
 }
 
 .contato div{
-    width: 900px;
+    display: flex;
+    justify-content:center;
 }
 
-.contato div form > div{
-
-
+.nome-email{
+    label: block;
 }
 
-
-
-
-/* .contato div form{
-    display: block;
-    justify-content: space-between;
-    align-items: center;
+.assunto-mensagem{
+    label: block;
 }
-
-.contato div form div{
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    width: 800px;
-} */
 
 
 /* NEWSLETTER */
 .newsletter{
-    background: rgb(231, 170, 39);
+    background: rgb(248, 188, 59);
     display: block;
     text-align: center;
     padding: 0 0 40px 0;
+}
+
+.btn-comecar-agora{
+    display: inline;
+    background-color: rgb(243, 57, 57);
+    border-radius: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 /* FOOTER */
