@@ -1,7 +1,5 @@
 *{
     font-family: 'Asap', sans-serif;
-    color: gray;
-
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -46,6 +44,9 @@ nav.topbar a{
     padding: 0 10px;
 }
 
+body{
+    margin: 0;
+}
 
 /* HEADER */
 header{
@@ -96,7 +97,6 @@ header div p{
 
 
 /* PASSO-A-PASSO */
-
 .passo-a-passo h2{
     display: block;
     text-align: center;
@@ -122,19 +122,24 @@ header div p{
     display: block;
     text-align: center;
     padding: 25px 0 70px 0;
-}
-
-.card-servicos{
-    max-width: 25%;
-    margin-left: 70px;
-    text-align: center;
-    background-color: rgb(48, 166, 235);
+    color: white;
 }
 
 .servicos > div{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.card-servicos{
+    max-width: 40%;
+    margin-left: 70px;
+    background-color: rgb(48, 166, 235);
+    width: 350px;
+    height: 410px;
+    border-radius: 15px;
+    
 }
 
 /* CURIOSIDADES */
@@ -142,14 +147,15 @@ header div p{
     background: url(../img/bg-numeros.png);
     display: block;
     text-align: center;
-    padding: 25px 0 30px 0;
+    padding: 0 0 30px 0;
+    color: white;
 }
 
-.card.curiosidades{
-    max-width: 25%;
-    margin-left: 70px;
-    text-align: center;
-    background-color: rgb(48, 166, 235);
+.curiosidades span{
+    color: rgb(231, 170, 39);
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 
 .curiosidades > div{
@@ -158,12 +164,57 @@ header div p{
     align-items: center;
 }
 
+.card-curiosidades{
+    display: inline-block;
+    max-width: 25%;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.btn-servicos{
+    display: block;
+    background-color: rgba(247, 232, 29, 0.918);
+    border-radius: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(231, 170, 39);
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
 
 /* CONTATO */
 .contato{
     display: block;
     text-align: center;
 }
+
+.contato div{
+    width: 900px;
+}
+
+.contato div form > div{
+
+
+}
+
+
+
+
+/* .contato div form{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato div form div{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+} */
 
 
 /* NEWSLETTER */
@@ -179,16 +230,25 @@ header div p{
     background: rgb(73, 72, 68);
     display: block;
     text-align: center;
-    padding: 0 0 40px 0;
+    padding: 20px 0 20px 0;
+    color: white;
 }
 
 .footer > div{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
-/* footer ul{
-    display: block;
+.footer ul li{
+    display: flex;
+    max-width: 75%;
+    margin-left: 70px;
     text-align: center;
-} */
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -77,14 +77,14 @@
                         <h3>Consultoria</h3>
                         <img src="img/servicos-consultoria.png" alt="Ponto de localização">
                         <p>Não sabe para onde viajar? A <br>consultoria visa selecionar os <br>melhores destinos do Brasil e do <br>mundo para a sua próxima viagem.</p>
-                        <a href="#">Saber mais</a>
+                        <a class="btn-servicos" href="#">Saber mais</a>
                     </div>
 
                     <div class="card-servicos">
                         <h3>Roteiro</h3>
                         <img src="img/servicos-roteiros.png" alt="Malinha">
                         <p>Sua viagem está chegando, mas não <br>sabe o que visitar e onde comer? Nós <br>temos uma equipe de consultores <br>apaixonada por viagem. Sabemos <br>como montar o roteiro para cada <br>perfil de viajante.</p>
-                        <a href="#">Saber mais</a>
+                        <a class="btn-servicos" href="#">Saber mais</a>
                     </div>
                 </div>
             </section>
@@ -92,16 +92,21 @@
             <section class="curiosidades">
                 <h2>Você sabia que...</h2>
 
-                <div class="card.curiosidades">
-                    <p><span>80%</span>É o que você economiza quando planeja uma viagem de antemão</p>
-                </div>
+                <div>
+                    <div class="card-curiosidades">
+                        <p><span>80%</span></p>
+                        <p>É o que você economiza <br>quando planeja uma viagem <br>de antemão</p>                    
+                    </div>
 
-                <div class="card.curiosidades">
-                    <p><span>50+</span>Localidades diferentes nossos consultores conhecem no mundo inteiro</p>
-                </div>
+                    <div class="card-curiosidades">
+                        <p><span>50+</span></p>
+                        <p>Localidades diferentes <br>nossos consultores <br>conhecem no mundo <br>inteiro</p>                    
+                    </div>
 
-                <div class="card.curiosidades">
-                    <p><span>1000+</span>Brasileiros viajaram no ano de 2016</p>
+                    <div class="card-curiosidades">
+                        <p><span>1000+</span></p>
+                        <p>Brasileiros viajaram no ano <br>de 2016</p>                    
+                    </div>
                 </div>
             </section>
 
@@ -109,28 +114,27 @@
                 <h2>Alguma dúvida?</h2>
                 <h2>Fale com a gente!</h2>
 
-                <form action="enviar">
-                    <div>
-                        <label for="name">Nome</label>
-                        <input type="text" name="name">
-                    </div>
-
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="text" name="email">
-                    </div>
-
-                    <div>
-                        <label for="assunto">Assunto</label>
-                        <input type="text" name="assunto">
-                    </div>
-
-                    <div>
-                        <textarea name="" id="" rows="20"></textarea>
-                    </div>
-
-                    <input type="submit" name="enviar">
-                </form>
+                <div>
+                    <form action="enviar">
+                        <div class="nome-email">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email">
+                        </div>
+    
+                        <div>
+                            <label for="assunto">Assunto</label>
+                            <input type="text" name="assunto">
+                        </div>
+    
+                        <div>
+                            <textarea name="" id="" rows="20"></textarea>
+                        </div>
+    
+                        <input type="submit" name="enviar">
+                    </form>
+                </div>
             </section>
 
             <section class="newsletter">
@@ -139,60 +143,39 @@
                 <div>
                     <form action="comecar-agora">
                         <label for="insira-email">Insira seu email</label>
-                        <input type="submit" name="comecar agora">
+                        <a href="#">Começar agora</a>
                     </form>
                 </div>
             </section>
 
             <footer class="footer">
                 <div>
-                    <ul>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Como funciona</a></li>
-                        <li><a href="#">Roteiros</a></li>
-                        <li><a href="#">Consultoria</a></li>
-                        <li><a href="#">Contato</a></li>               
-                    </ul>
-                </div>
-
-                <div>
-                    <img src="img/logo-footer.png" alt="Logo da empresa">
-                    <p>Sharing Experiences</p>
-                    <a href="mailto:contato@gruppe.com"></a>
-                    <p>© Copyright 2017. Gruppe Viagens</p>
-                </div>
-
-                <div>
-                    <p>siga-nos nas redes sociais:</p>
-
-                    <div>
-                        <img src="img/fb-icon.png" alt="Icone do Facebook">
-                        <img src="img/yt-icon.png" alt="Icone do Youtube">
+                    <div class="primeira-footer">
+                        <ul>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Como funciona</a></li>
+                            <li><a href="#">Roteiros</a></li>
+                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="#">Contato</a></li>               
+                        </ul>
+                    </div>
+        
+                    <div class="coluna-footer">
+                        <img src="img/logo-footer.png" alt="Logo da empresa">
+                        <p>Sharing Experiences</p>
+                        <a href="mailto:contato@gruppe.com"></a>
+                        <p>© Copyright 2017. Gruppe Viagens</p>
+                    </div>
+    
+                    <div class="coluna-footer">
+                        <p>siga-nos nas redes sociais:</p>
+                        <div>
+                            <img src="img/fb-icon.png" alt="Icone do Facebook">
+                            <img src="img/yt-icon.png" alt="Icone do Youtube">
+                        </div>
                     </div>
                 </div>
-
-
             </footer>
-
-
-
-
-
-
-
-                </div>
-
-            </section>
-
-
-
-
         </main>
-       
-
-
-
-
-        
-    </body>
+</body>
 </html>
