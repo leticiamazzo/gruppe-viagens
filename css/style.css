@@ -198,19 +198,21 @@ header div p{
     text-align: center;
 }
 
-.contato div{
-    display: flex;
-    justify-content:center;
+.contato > div{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contato div form div > label, input, textarea{
+    label: block;
+    width: 100%;
 }
 
 .nome-email{
-    label: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.assunto-mensagem{
-    label: block;
-}
-
 
 /* NEWSLETTER */
 .newsletter{
@@ -261,3 +263,69 @@ header div p{
     color: white;
 }
 
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 360px){
+    .topbar ul li{
+        display: block;
+    }
+
+    .sobre > div{
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+
+    }
+
+    body{
+        margin: 0;
+    }
+    
+    /* HEADER */
+    header{
+        display: block
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+    /* PASSO-A-PASSO */
+    .passo-a-passo > div{
+        display: block;
+    }
+
+    /* SERVICOS */
+    .servicos > div{
+        display: block;
+    }
+
+    .card-servicos{
+        max-width: 90%;
+    }
+
+    /* CURIOSIDADES */
+    .curiosidades > div{
+        background: none;
+        display: block;
+    }
+
+    /* NEWSLETTER */
+    .btn-comecar-agora{
+        display: block;
+    }
+
+    /* FOOTER */
+    .footer > div{
+        display: block;
+    }
+    
+   }  
+    
+
+    
+@media (max-width: 768px) {
+
+}

@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <title>Gruppe Viagens Page</title>
         <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
     </head>
     
     <body>
@@ -116,13 +119,19 @@
 
                 <div>
                     <form action="enviar">
+
                         <div class="nome-email">
-                            <label for="name">Nome</label>
-                            <input type="text" name="name">
-                            <label for="email">E-mail</label>
-                            <input type="text" name="email">
+                            <div>
+                                <label for="name">Nome</label>
+                                <input type="text" name="name">
+                            </div>
+                            
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="text" name="email">
+                            </div>
                         </div>
-    
+
                         <div class="assunto-mensagem">
                             <label for="assunto">Assunto</label>
                             <input type="text" name="assunto">
@@ -131,8 +140,11 @@
                         <div>
                             <textarea name="" id="" rows="20"></textarea>
                         </div>
+
+                        <div class="btn-contato">
+                            <input type="submit" name="enviar">
+                        </div>
     
-                        <input type="submit" name="enviar">
                     </form>
                 </div>
             </section>
