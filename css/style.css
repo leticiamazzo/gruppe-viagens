@@ -100,7 +100,7 @@ header div p{
 .passo-a-passo h2{
     display: block;
     text-align: center;
-    padding-top: 50px;
+    padding: 30px 0;
 } 
 
 .desc-passo{
@@ -142,7 +142,10 @@ header div p{
     width: 350px;
     height: 410px;
     border-radius: 15px;
-    
+}
+
+.card-servicos p{
+    padding: 0 10px;
 }
 
 /* CURIOSIDADES */
@@ -190,12 +193,13 @@ header div p{
     max-width: 200px;
     margin: 0 auto;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 /* CONTATO */
 .contato{
     display: block;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .contato > div{
@@ -203,9 +207,16 @@ header div p{
     margin: 0 auto;
 }
 
-.contato div form div > label, input, textarea{
+.nome{
+    margin-right: 15px;
+}
+
+.contato div form div > input, textarea{
     label: block;
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .nome-email{
@@ -214,12 +225,31 @@ header div p{
     align-items: center;
 }
 
+.btn-contato{
+    display: block;
+    background-color: rgba(247, 232, 29, 0.918);
+    border-radius: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(231, 170, 39);
+    margin-top: 20px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 /* NEWSLETTER */
 .newsletter{
     background: rgb(248, 188, 59);
     display: block;
     text-align: center;
     padding: 0 0 40px 0;
+}
+
+.newsletter div form > input{
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .btn-comecar-agora{
@@ -234,6 +264,7 @@ header div p{
     max-width: 200px;
     margin: 0 auto;
     margin-bottom: 60px;
+    margin-left: 15px;
 }
 
 /* FOOTER */
